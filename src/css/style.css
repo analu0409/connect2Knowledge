@@ -170,6 +170,14 @@ html {
     }
 }
 
+@media (max-width: 375px) {
+    .square {
+        background: #ffffff;
+        width: 50vw;
+        height: 40vw;
+    }
+}
+
 .p-contact {
     margin-bottom: 0.2rem;
 }
