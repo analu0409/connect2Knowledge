@@ -1,0 +1,175 @@
+@font-face {
+    font-family: MenuFont;
+    src: url("../fonts/Lao Sangam MN.ttf");
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1025px) {
+    /* The hero image */
+    .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: url("../images/header.png");
+        /* Set a specific height */
+        height: 50%;
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .hero-image {
+        background-image: url("../images/HeaderMedium.png");
+        height: 30%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
+
+
+/*@media only screen and (max-width: 768px) {
+  .hero-image {
+    background-image:  url("../images/HeaderMedium.png");   
+    height: 233px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+}*/
+
+.fixed-bottom {
+    position: absolute;
+}
+
+.nav-link-lg {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* mouse over link */
+
+.nav-link-lg:hover {
+    color: white;
+    font-weight: bolder !important;
+}
+
+.content-image {
+    height: 300px;
+}
+
+h1 {
+    color: #338BCA;
+}
+
+.nav-link {
+    font-family: 'MenuFont';
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.title-text {
+    font-family: 'MenuFont';
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.section-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
+
+.section-type-2 {
+    background-color: #EBEEEE;
+}
+
+.content-text {
+    font-family: 'Lora';
+    font-size: x-large;
+}
+
+.subtitle-text {
+    font-family: 'Lora';
+    font-weight: bold
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.title-3 {
+    font-family: 'Lora';
+}
+
+.orange-text {
+    color: #CA6B21;
+}
+
+.cs-text {
+    vertical-align: middle;
+    padding-top: 13%
+}
+
+.square {
+    background: #ffffff;
+    width: 50vw;
+    height: 30vw;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+html {
+    font-size: 1rem;
+}
+
+@media (max-width: 786px) {
+    .display-1 {
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    .display-2 {
+        font-size: 3.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    .display-3 {
+        font-size: 3.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    .display-4 {
+        font-size: 2.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    .content-text {
+        font-size: large;
+    }
+}
+
+.p-contact {
+    margin-bottom: 0.2rem;
+}
